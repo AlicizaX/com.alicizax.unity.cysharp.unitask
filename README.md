@@ -1,14 +1,14 @@
 # 基于`UniTask` 的二次修改
 
-该库主要服务于 `https://github.com/AlianBlank/GameFrameX` 作为子库使用。
+该库主要服务于 AlicizaX 作为子库使用。
 
 
 # 使用方式(三种方式)
 1. 直接在 `manifest.json` 文件中添加以下内容
    ```json
-      {"com.gameframex.unity.cysharp.unitask": "https://github.com/AlianBlank/com.gameframex.unity.cysharp.unitask.git"}
+      {"com.alicizax.unity.cysharp.unitask": "http://101.34.252.46:3000/AlicizaX/com.alicizax.unity.cysharp.unitask.git"}
     ```
-2. 在Unity 的`Packages Manager` 中使用`Git URL` 的方式添加库,地址为：https://github.com/AlianBlank/com.gameframex.unity.cysharp.unitask.git
+2. 在Unity 的`Packages Manager` 中使用`Git URL` 的方式添加库,地址为：http://101.34.252.46:3000/AlicizaX/com.alicizax.unity.cysharp.unitask.git
 
 3. 直接下载仓库放置到Unity 项目的`Packages` 目录下。会自动加载识别
 
